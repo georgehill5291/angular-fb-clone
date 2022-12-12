@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-fb-clone-b386d": {
+      "hosting": {
+        "angular-fb-clone": [
+          "angular-fb-clone-b386d"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-fb-clone-b386d"
+  }
+}

@@ -97,6 +97,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-fb-clone:build:production",
+            "firebaseProject": "angular-fb-clone-b386d",
+            "firebaseHostingSite": "angular-fb-clone-b386d"
+          }
         }
       }
     }
